@@ -1,0 +1,277 @@
+
+ CHEMKIN INTERPRETER OUTPUT: CHEMKIN-II Version 3.9  Aug. 1994
+                              DOUBLE PRECISION
+
+                          --------------------
+                          ELEMENTS     ATOMIC
+                          CONSIDERED   WEIGHT
+                          --------------------
+                           1. n       14.0067    
+                           2. o       15.9994    
+                           3. h       1.00797    
+                           4. c       12.0112    
+                          --------------------
+ -------------------------------------------------------------------------------
+                          C
+                       P  H
+                       H  A
+                       A  R
+ SPECIES               S  G  MOLECULAR  TEMPERATURE  ELEMENT COUNT
+ CONSIDERED            E  E  WEIGHT     LOW    HIGH  n  o  h  c  
+ -------------------------------------------------------------------------------
+   1. nc7h16           G  0  100.20557   300   5000   0  0 16  7
+   2. n2               G  0   28.01340   300   5000   2  0  0  0
+   3. o2               G  0   31.99880   300   5000   0  2  0  0
+   4. h2o              G  0   18.01534   300   5000   0  1  2  0
+   5. co2              G  0   44.00995   300   5000   0  2  0  1
+   6. h                G  0    1.00797   300   5000   0  0  1  0
+   7. oh               G  0   17.00737   300   5000   0  1  1  0
+   8. o                G  0   15.99940   300   5000   0  1  0  0
+   9. h2               G  0    2.01594   300   5000   0  0  2  0
+  10. ho2              G  0   33.00677   300   5000   0  2  1  0
+  11. h2o2             G  0   34.01474   300   5000   0  2  2  0
+  12. co               G  0   28.01055   300   5000   0  1  0  1
+  13. ch               G  0   13.01912   300   5000   0  0  1  1
+  14. hco              G  0   29.01852   300   5000   0  1  1  1
+  15. ch2oh            G  0   31.03446   300   5000   0  1  3  1
+  16. txch2            G  0   14.02709   300   5000   0  0  2  1
+  17. c2h2             G  0   26.03824   300   5000   0  0  2  2
+  18. ch3              G  0   15.03506   300   5000   0  0  3  1
+  19. c2h4             G  0   28.05418   300   5000   0  0  4  2
+  20. pxch2            G  0   14.02709   300   5000   0  0  2  1
+  21. ch2o             G  0   30.02649   300   5000   0  1  2  1
+  22. ch4              G  0   16.04303   300   5000   0  0  4  1
+  23. ch3o             G  0   31.03446   300   5000   0  1  3  1
+  24. c2h6             G  0   30.07012   300   5000   0  0  6  2
+  25. hcco             G  0   41.02967   300   5000   0  1  1  2
+  26. c2h3             G  0   27.04621   300   5000   0  0  3  2
+  27. c2h5             G  0   29.06215   300   5000   0  0  5  2
+  28. c3h4             G  0   40.06533   300   5000   0  0  4  3
+  29. c3h5             G  0   41.07330   300   5000   0  0  5  3
+  30. c3h6             G  0   42.08127   300   5000   0  0  6  3
+  31. nxc3h7           G  0   43.08924   300   5000   0  0  7  3
+  32. pxc4h8           G  0   56.10836   300   5000   0  0  8  4
+  33. pxc4h9           G  0   57.11633   300   5000   0  0  9  4
+  34. pxc5h11          G  0   71.14342   300   5000   0  0 11  5
+  35. c6h11            G  0   83.15457   300   5000   0  0 11  6
+  36. pxc6h12          G  0   84.16254   300   5000   0  0 12  6
+  37. pxc7h15          G  0   99.19760   300   5000   0  0 15  7
+  38. sxc7h15          G  0   99.19760   300   5000   0  0 15  7
+  39. pc7h15o2         G  0  131.19640   300   5000   0  2 15  7
+  40. pheoohx2         G  0  131.19640   300   5000   0  2 15  7
+  41. soo7ooh1         G  0  163.19520   300   5000   0  4 15  7
+  42. px2heooh         G  0  163.19520   300   5000   0  4 15  7
+  43. oc7ooh           G  0  146.18783   300   5000   0  3 14  7
+  44. px2hepoo         G  0  129.18046   300   5000   0  2 13  7
+ -------------------------------------------------------------------------------
+
+
+
+                                                      (k = A T**b exp(-E/RT))
+      REACTIONS CONSIDERED                              A        b        E
+
+   1. o2+h<=>oh+o                                   2.00E+14    0.0    16802.1
+   2. h2+o<=>oh+h                                   5.06E+04    2.7     6285.9
+   3. h2+oh<=>h2o+h                                 1.00E+08    1.6     3298.3
+   4. 2oh<=>h2o+o                                   1.50E+09    1.1      100.4
+   5. 2h+m<=>h2+m                                   1.80E+18   -1.0        0.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+   6. 2o+m<=>o2+m                                   2.90E+17   -1.0        0.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+   7. h+oh+m<=>h2o+m                                2.20E+22   -2.0        0.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+   8. h+o2+m<=>ho2+m                                2.30E+18   -0.8        0.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+   9. ho2+h<=>2oh                                   1.50E+14    0.0     1003.8
+  10. ho2+h<=>h2+o2                                 2.50E+13    0.0      693.1
+  11. ho2+h<=>h2o+o                                 3.00E+13    0.0     1720.8
+  12. ho2+o<=>oh+o2                                 1.80E+13    0.0     -406.3
+  13. ho2+oh<=>h2o+o2                               6.00E+13    0.0        0.0
+  14. 2ho2<=>h2o2+o2                                2.50E+11    0.0    -1242.8
+  15. 2oh+m<=>h2o2+m                                3.25E+22   -2.0        0.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  16. h2o2+oh<=>h2o+ho2                             5.40E+12    0.0     1003.8
+  17. co+oh<=>co2+h                                 6.00E+06    1.5     -740.9
+  18. co+ho2<=>co2+oh                               1.50E+14    0.0    23589.9
+  19. co+o+m<=>co2+m                                7.10E+13    0.0    -4541.1
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  20. ch+o2=>hco+o                                  6.00E+13    0.0        0.0
+  21. ch+co2=>hco+co                                3.40E+12    0.0      693.1
+  22. ch+h2o<=>ch2oh                                5.70E+12    0.0     -764.8
+  23. hco+m<=>co+h+m                                1.57E+14    0.0    15757.6
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  24. hco+o2<=>co+ho2                               3.00E+12    0.0        0.0
+  25. txch2+h<=>ch+h2                               6.00E+12    0.0    -1792.5
+  26. 2txch2<=>c2h2+h2                              1.20E+13    0.0      812.6
+  27. txch2+ch3<=>c2h4+h                            4.20E+13    0.0        0.0
+  28. txch2+o2<=>co+oh+h                            1.30E+13    0.0     1481.8
+  29. txch2+o2<=>co2+h2                             1.20E+13    0.0     1481.8
+  30. pxch2+m<=>txch2+m                             1.20E+13    0.0        0.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  31. pxch2+o2<=>co+oh+h                            3.10E+13    0.0        0.0
+  32. pxch2+h2<=>ch3+h                              7.20E+13    0.0        0.0
+  33. ch2o+m<=>hco+h+m                              5.00E+16    0.0    76481.8
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  34. ch2o+h<=>hco+h2                               2.30E+10    1.1     3274.4
+  35. ch2o+o<=>hco+oh                               4.15E+11    0.6     2772.5
+  36. ch2o+oh<=>hco+h2o                             3.40E+09    1.2     -454.1
+  37. ch2o+ho2<=>hco+h2o2                           3.00E+12    0.0    13073.6
+  38. ch3+o<=>ch2o+h                                8.43E+13    0.0        0.0
+  39. ch3+h(+m)<=>ch4(+m)                           2.11E+14    0.0        0.0
+      Low pressure limit:  0.62570E+24 -0.18000E+01  0.00000E+00
+      TROE centering:      0.57700E+00  0.10000E+01  0.23700E+04
+  40. ch3+oh=>ch3o+h                                2.26E+14    0.0    15487.6
+  41. ch3+o2=>ch2o+oh                               3.30E+11    0.0     8938.8
+  42. ch3+ho2<=>ch3o+oh                             1.80E+13    0.0        0.0
+  43. ch3+ho2<=>ch4+o2                              3.60E+12    0.0        0.0
+  44. 2ch3=>c2h4+h2                                 1.00E+16    0.0    32026.8
+  45. 2ch3(+m)<=>c2h6(+m)                           1.81E+13    0.0        0.0
+      Low pressure limit:  0.12720E+42 -0.70000E+01  0.27629E+04
+      TROE centering:      0.62000E+00  0.73000E+02  0.11800E+04
+  46. ch3o+m<=>ch2o+h+m                             5.00E+13    0.0    25095.6
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  47. ch3o+h<=>ch2o+h2                              1.80E+13    0.0        0.0
+  48. ch3o+o2<=>ch2o+ho2                            4.00E+10    0.0     2127.2
+  49. ch2oh+m<=>ch2o+h+m                            5.00E+13    0.0    25095.6
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  50. ch2oh+h<=>ch2o+h2                             3.00E+13    0.0        0.0
+  51. ch2oh+o2<=>ch2o+ho2                           1.00E+13    0.0     7170.2
+  52. ch4+h<=>h2+ch3                                1.30E+04    3.0     8030.6
+  53. ch4+oh<=>h2o+ch3                              1.60E+07    1.8     2772.5
+  54. hcco+h<=>txch2+co                             1.50E+14    0.0        0.0
+  55. hcco+o=>2co+h                                 9.60E+13    0.0        0.0
+  56. c2h2+o2<=>hcco+oh                             2.00E+08    1.5    30114.7
+  57. c2h2+o<=>txch2+co                             1.72E+04    2.8      501.9
+  58. c2h2+o<=>hcco+h                               1.72E+04    2.8      501.9
+  59. c2h3(+m)<=>c2h2+h(+m)                         2.00E+14    0.0    39744.3
+      Low pressure limit:  0.11870E+43 -0.75000E+01  0.45507E+05
+      TROE centering:      0.35000E+00  0.10000E+01  0.10000E+08  0.10000E+08
+  60. c2h3+o2=>ch2o+hco                             5.42E+12    0.0        0.0
+  61. c2h4+m<=>c2h2+h2+m                            2.50E+17    0.0    76434.0
+         n2               Enhanced by    4.000E-01
+         o2               Enhanced by    4.000E-01
+         h2o              Enhanced by    6.500E+00
+         co               Enhanced by    7.500E-01
+         ch4              Enhanced by    3.000E+00
+         nc7h16           Enhanced by    3.000E+00
+  62. c2h4+h<=>c2h3+h2                              1.70E+15    0.0    15033.5
+  63. c2h4+oh<=>c2h3+h2o                            6.50E+13    0.0     5951.2
+  64. c2h5(+m)<=>c2h4+h(+m)                         1.30E+13    0.0    39914.0
+      Low pressure limit:  0.10000E+17  0.00000E+00  0.30115E+05
+      TROE centering:      0.10000E+01  0.10000E+01  0.42280E+03  0.73000E+02
+  65. c2h5+h<=>2ch3                                 3.00E+13    0.0        0.0
+  66. c2h5+o2<=>c2h4+ho2                            1.10E+10    0.0    -1505.7
+  67. c2h6+h=>c2h5+h2                               1.40E+09    1.5     7433.1
+  68. c2h6+oh=>c2h5+h2o                             7.20E+06    2.0      860.4
+  69. c2h6+ch3=>c2h5+ch4                            1.50E-07    6.0     6070.8
+  70. c3h4+oh=>ch2o+c2h3                            1.00E+12    0.0        0.0
+  71. c3h4+oh=>hco+c2h4                             1.00E+12    0.0        0.0
+  72. c3h5<=>c3h4+h                                 3.98E+13    0.0    70052.6
+  73. c3h5+h<=>c3h4+h2                              5.00E+12    0.0        0.0
+  74. c3h5+o2<=>c3h4+ho2                            6.00E+11    0.0    10014.3
+  75. c3h6<=>c2h3+ch3                               3.15E+15    0.0    85803.1
+  76. c3h6+h<=>c3h5+h2                              5.00E+12    0.0     1505.7
+  77. c3h6+oh<=>c2h5+ch2o                           7.90E+12    0.0        0.0
+  78. c3h6+oh<=>c3h5+h2o                            4.00E+12    0.0        0.0
+  79. c3h6+ch3=>c3h5+ch4                            8.96E+12    0.0     8508.6
+  80. nxc3h7<=>ch3+c2h4                             9.60E+13    0.0    31022.9
+  81. nxc3h7<=>h+c3h6                               1.25E+14    0.0    37022.0
+  82. nxc3h7+o2<=>c3h6+ho2                          1.00E+12    0.0     4995.2
+  83. pxc4h8<=>c3h5+ch3                             8.00E+16    0.0    73470.4
+  84. pxc4h8+oh<=>nxc3h7+ch2o                       6.50E+12    0.0        0.0
+  85. pxc4h9=>c2h5+c2h4                             2.50E+13    0.0    28824.1
+  86. pxc5h11=>c2h4+nxc3h7                          3.20E+13    0.0    28417.8
+  87. c6h11=>c3h5+c3h6                              2.50E+13    0.0    30019.1
+  88. pxc6h12=>nxc3h7+c3h5                          2.50E+16    0.0    71152.0
+  89. pxc6h12+h=>c6h11+h2                           5.00E+12    0.0        0.0
+  90. pxc6h12+oh=>c6h11+h2o                         5.00E+12    0.0        0.0
+  91. pxc7h15=>pxc5h11+c2h4                         2.50E+13    0.0    28824.1
+  92. sxc7h15=>pxc4h9+c3h6                          1.60E+13    0.0    28322.2
+  93. sxc7h15=>pxc6h12+ch3                          4.00E+13    0.0    33030.6
+  94. pxc7h15=>sxc7h15                              2.00E+11    0.0    18116.6
+  95. sxc7h15=>pxc7h15                              3.00E+11    0.0    21128.1
+  96. nc7h16=>pxc4h9+nxc3h7                         3.16E+16    0.0    81070.8
+  97. nc7h16+h=>pxc7h15+h2                          7.30E+07    2.0     7696.0
+  98. nc7h16+h=>sxc7h15+h2                          3.50E+07    2.0     4995.2
+  99. nc7h16+oh=>pxc7h15+h2o                        1.06E+10    1.1     1816.4
+ 100. nc7h16+oh=>sxc7h15+h2o                        5.20E+09    1.3      693.1
+ 101. nc7h16+ho2=>pxc7h15+h2o2                      1.79E+13    0.0    19407.3
+ 102. nc7h16+ho2=>sxc7h15+h2o2                      1.34E+13    0.0    17017.2
+ 103. nc7h16+o2=>pxc7h15+ho2                        5.50E+13    0.0    49044.0
+ 104. nc7h16+o2=>sxc7h15+ho2                        8.00E+13    0.0    47633.8
+ 105. pxc7h15+o2<=>pc7h15o2                         2.00E+12    0.0        0.0
+         Reverse Arrhenius coefficients:            1.75E+15    0.0    28035.4
+ 106. sxc7h15+o2<=>pc7h15o2                         2.00E+12    0.0        0.0
+         Reverse Arrhenius coefficients:            1.75E+15    0.0    28035.4
+ 107. pc7h15o2=>pheoohx2                            6.00E+11    0.0    20458.9
+ 108. pheoohx2+o2=>soo7ooh1                         5.00E+11    0.0        0.0
+ 109. soo7ooh1=>px2heooh                            2.00E+11    0.0    17017.2
+ 110. px2heooh=>oc7ooh+oh                           1.00E+09    0.0     7504.8
+ 111. oc7ooh=>px2hepoo+oh                           8.40E+14    0.0    43044.9
+ 112. px2hepoo=>ch2o+pxc5h11+co                     2.00E+13    0.0    15009.6
+
+  NOTE:  A units mole-cm-sec-K, E units cal/mole
+
+
+
+ NO ERRORS FOUND ON INPUT...CHEMKIN LINKING FILE WRITTEN.
+
+ WORKING SPACE REQUIREMENTS ARE
+    INTEGER:     2691
+    REAL:        2455
+    CHARACTER:     48

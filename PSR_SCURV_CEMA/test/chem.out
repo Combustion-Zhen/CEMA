@@ -1,0 +1,543 @@
+
+ CHEMKIN INTERPRETER OUTPUT: CHEMKIN-II Version 3.9  Aug. 1994
+                              DOUBLE PRECISION
+
+                          --------------------
+                          ELEMENTS     ATOMIC
+                          CONSIDERED   WEIGHT
+                          --------------------
+                           1. O       15.9994    
+                           2. H       1.00797    
+                           3. C       12.0112    
+                           4. N       14.0067    
+                           5. AR      39.9480    
+                          --------------------
+ -------------------------------------------------------------------------------
+                          C
+                       P  H
+                       H  A
+                       A  R
+ SPECIES               S  G  MOLECULAR  TEMPERATURE  ELEMENT COUNT
+ CONSIDERED            E  E  WEIGHT     LOW    HIGH  O  H  C  N  AR 
+ -------------------------------------------------------------------------------
+   1. C2H4             G  0   28.05418   200   3500   0  4  2  0  0
+   2. O2               G  0   31.99880   200   3500   2  0  0  0  0
+   3. N2               G  0   28.01340   300   5000   0  0  0  2  0
+   4. H2               G  0    2.01594   200   3500   0  2  0  0  0
+   5. H                G  0    1.00797   200   3500   0  1  0  0  0
+   6. O                G  0   15.99940   200   3500   1  0  0  0  0
+   7. OH               G  0   17.00737   200   3500   1  1  0  0  0
+   8. H2O              G  0   18.01534   200   3500   1  2  0  0  0
+   9. HO2              G  0   33.00677   200   3500   2  1  0  0  0
+  10. H2O2             G  0   34.01474   200   3500   2  2  0  0  0
+  11. CH               G  0   13.01912   200   3500   0  1  1  0  0
+  12. CH2              G  0   14.02709   200   3500   0  2  1  0  0
+  13. CH2*             G  0   14.02709   200   3500   0  2  1  0  0
+  14. CH3              G  0   15.03506   200   3500   0  3  1  0  0
+  15. CH4              G  0   16.04303   200   3500   0  4  1  0  0
+  16. CO               G  0   28.01055   200   3500   1  0  1  0  0
+  17. CO2              G  0   44.00995   200   3500   2  0  1  0  0
+  18. HCO              G  0   29.01852   200   3500   1  1  1  0  0
+  19. CH2O             G  0   30.02649   200   3500   1  2  1  0  0
+  20. CH3O             G  0   31.03446   300   3000   1  3  1  0  0
+  21. C2H2             G  0   26.03824   200   3500   0  2  2  0  0
+  22. H2CC             G  0   26.03824   200   6000   0  2  2  0  0
+  23. C2H3             G  0   27.04621   200   3500   0  3  2  0  0
+  24. C2H5             G  0   29.06215   200   3500   0  5  2  0  0
+  25. C2H6             G  0   30.07012   200   3500   0  6  2  0  0
+  26. HCCO             G  0   41.02967   300   4000   1  1  2  0  0
+  27. CH2CO            G  0   42.03764   200   3500   1  2  2  0  0
+  28. CH2CHO           G  0   43.04561   300   5000   1  3  2  0  0
+  29. CH3CHO           G  0   44.05358   200   6000   1  4  2  0  0
+  30. aC3H5            G  0   41.07330   300   3000   0  5  3  0  0
+  31. C3H6             G  0   42.08127   300   5000   0  6  3  0  0
+  32. nC3H7            G  0   43.08924   300   3000   0  7  3  0  0
+ -------------------------------------------------------------------------------
+
+
+
+                                                      (k = A T**b exp(-E/RT))
+      REACTIONS CONSIDERED                              A        b        E
+
+   1. H+O2=O+OH                                     8.30E+13    0.0    14413.0
+   2. O+H2=H+OH                                     5.00E+04    2.7     6290.0
+   3. OH+H2=H+H2O                                   2.16E+08    1.5     3430.0
+   4. OH+OH=O+H2O                                   3.57E+04    2.4    -2110.0
+   5. H+H+M=H2+M                                    1.00E+18   -1.0        0.0
+         H2               Enhanced by    0.000E+00
+         H2O              Enhanced by    0.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO2              Enhanced by    0.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+   6. H+H+H2=H2+H2                                  9.00E+16   -0.6        0.0
+   7. H+H+H2O=H2+H2O                                6.00E+19   -1.2        0.0
+   8. H+H+CO2=H2+CO2                                5.50E+20   -2.0        0.0
+   9. H+OH+M=H2O+M                                  2.20E+22   -2.0        0.0
+         H2               Enhanced by    7.300E-01
+         H2O              Enhanced by    3.650E+00
+         CH4              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  10. O+H+M=OH+M                                    5.00E+17   -1.0        0.0
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  11. O+O+M=O2+M                                    1.20E+17   -1.0        0.0
+         H2               Enhanced by    2.400E+00
+         H2O              Enhanced by    1.540E+01
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.750E+00
+         CO2              Enhanced by    3.600E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  12. H+O2+M=HO2+M                                  2.80E+18   -0.9        0.0
+         O2               Enhanced by    0.000E+00
+         H2O              Enhanced by    0.000E+00
+         CO               Enhanced by    7.500E-01
+         CO2              Enhanced by    1.500E+00
+         C2H6             Enhanced by    1.500E+00
+         N2               Enhanced by    0.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  13. H+O2+O2=HO2+O2                                3.00E+20   -1.7        0.0
+  14. H+O2+H2O=HO2+H2O                              1.65E+19   -0.8        0.0
+  15. H+O2+N2=HO2+N2                                2.60E+19   -1.2        0.0
+  16. OH+OH(+M)=H2O2(+M)                            7.40E+13   -0.4        0.0
+      Low pressure limit:  0.23000E+19 -0.90000E+00 -0.17000E+04
+      TROE centering:      0.73460E+00  0.94000E+02  0.17560E+04  0.51820E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  17. HO2+H=O+H2O                                   3.97E+12    0.0      671.0
+  18. HO2+H=O2+H2                                   1.66E+13    0.0      820.0
+  19. HO2+H=OH+OH                                   7.08E+13    0.0      300.0
+  20. HO2+O=OH+O2                                   2.00E+13    0.0        0.0
+  21. HO2+OH=O2+H2O                                 4.64E+13    0.0     -500.0
+  22. HO2+HO2=O2+H2O2                               1.30E+11    0.0    -1630.0
+      Declared duplicate reaction...
+  23. HO2+HO2=O2+H2O2                               4.20E+14    0.0    12000.0
+      Declared duplicate reaction...
+  24. H2O2+H=HO2+H2                                 1.21E+07    2.0     5200.0
+  25. H2O2+H=OH+H2O                                 1.00E+13    0.0     3600.0
+  26. H2O2+O=OH+HO2                                 9.63E+06    2.0     4000.0
+  27. H2O2+OH=HO2+H2O                               1.75E+12    0.0      320.0
+      Declared duplicate reaction...
+  28. H2O2+OH=HO2+H2O                               5.80E+14    0.0     9560.0
+      Declared duplicate reaction...
+  29. CO+O+M=CO2+M                                  6.02E+14    0.0     3000.0
+         H2               Enhanced by    2.000E+00
+         O2               Enhanced by    6.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    3.500E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  30. CO+OH=CO2+H                                   4.76E+07    1.2       70.0
+  31. CO+H2(+M)=CH2O(+M)                            4.30E+07    1.5    79600.0
+      Low pressure limit:  0.50700E+28 -0.34200E+01  0.84350E+05
+      TROE centering:      0.93200E+00  0.19700E+03  0.15400E+04  0.10300E+05
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  32. CO+O2=CO2+O                                   2.50E+12    0.0    47800.0
+  33. CO+HO2=CO2+OH                                 1.50E+14    0.0    23600.0
+  34. CH+O=CO+H                                     5.70E+13    0.0        0.0
+  35. CH+OH=HCO+H                                   3.00E+13    0.0        0.0
+  36. CH+H2=CH2+H                                   1.11E+08    1.8     1670.0
+  37. CH+H2O=CH2O+H                                 5.71E+12    0.0     -755.0
+  38. CH+O2=HCO+O                                   3.30E+13    0.0        0.0
+  39. CH+CO(+M)=HCCO(+M)                            5.00E+13    0.0        0.0
+      Low pressure limit:  0.26900E+29 -0.37400E+01  0.19360E+04
+      TROE centering:      0.57570E+00  0.23700E+03  0.16520E+04  0.50690E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  40. CH+CO2=HCO+CO                                 3.40E+12    0.0      690.0
+  41. HCO+H(+M)=CH2O(+M)                            1.09E+12    0.5     -260.0
+      Low pressure limit:  0.13500E+25 -0.25700E+01  0.14250E+04
+      TROE centering:      0.78240E+00  0.27100E+03  0.27550E+04  0.65700E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  42. HCO+H=CO+H2                                   7.34E+13    0.0        0.0
+  43. HCO+O=CO+OH                                   3.00E+13    0.0        0.0
+  44. HCO+O=CO2+H                                   3.00E+13    0.0        0.0
+  45. HCO+OH=CO+H2O                                 5.00E+13    0.0        0.0
+  46. HCO+M=CO+H+M                                  1.87E+17   -1.0    17000.0
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  47. HCO+O2=CO+HO2                                 7.60E+12    0.0      400.0
+  48. CH2+H(+M)=CH3(+M)                             2.50E+16   -0.8        0.0
+      Low pressure limit:  0.32000E+28 -0.31400E+01  0.12300E+04
+      TROE centering:      0.68000E+00  0.78000E+02  0.19950E+04  0.55900E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  49. CH2+H2=H+CH3                                  5.00E+05    2.0     7230.0
+  50. CH2+O=HCO+H                                   8.00E+13    0.0        0.0
+  51. CH2+O2=HCO+OH                                 1.06E+13    0.0     1500.0
+  52. CH2+O2=CO2+H+H                                2.64E+12    0.0     1500.0
+  53. CH2+OH=CH2O+H                                 2.00E+13    0.0        0.0
+  54. CH2+OH=CH+H2O                                 1.13E+07    2.0     3000.0
+  55. CH2+HO2=CH2O+OH                               2.00E+13    0.0        0.0
+  56. CH2+CO(+M)=CH2CO(+M)                          8.10E+11    0.5     4510.0
+      Low pressure limit:  0.26900E+34 -0.51100E+01  0.70950E+04
+      TROE centering:      0.59070E+00  0.27500E+03  0.12260E+04  0.51850E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  57. CH2+CH=C2H2+H                                 4.00E+13    0.0        0.0
+  58. CH2+CH2=C2H2+H2                               3.20E+13    0.0        0.0
+  59. CH2*+N2=CH2+N2                                1.50E+13    0.0      600.0
+  60. CH2*+H=CH+H2                                  3.00E+13    0.0        0.0
+  61. CH2*+O=CO+H2                                  1.50E+13    0.0        0.0
+  62. CH2*+O=HCO+H                                  1.50E+13    0.0        0.0
+  63. CH2*+OH=CH2O+H                                3.00E+13    0.0        0.0
+  64. CH2*+H2=CH3+H                                 7.00E+13    0.0        0.0
+  65. CH2*+O2=H+OH+CO                               2.80E+13    0.0        0.0
+  66. CH2*+O2=CO+H2O                                1.20E+13    0.0        0.0
+  67. CH2*+H2O=CH2+H2O                              3.00E+13    0.0        0.0
+  68. CH2*+CO=CH2+CO                                9.00E+12    0.0        0.0
+  69. CH2*+CO2=CH2+CO2                              7.00E+12    0.0        0.0
+  70. CH2*+CO2=CH2O+CO                              1.40E+13    0.0        0.0
+  71. CH2O+H(+M)=CH3O(+M)                           5.40E+11    0.5     2600.0
+      Low pressure limit:  0.22000E+31 -0.48000E+01  0.55600E+04
+      TROE centering:      0.75800E+00  0.94000E+02  0.15550E+04  0.42000E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  72. CH2O+H=HCO+H2                                 2.30E+10    1.1     3275.0
+  73. CH2O+O=HCO+OH                                 3.90E+13    0.0     3540.0
+  74. CH2O+OH=HCO+H2O                               3.43E+09    1.2     -447.0
+  75. CH2O+O2=HCO+HO2                               1.00E+14    0.0    40000.0
+  76. CH2O+HO2=HCO+H2O2                             1.00E+12    0.0     8000.0
+  77. CH2O+CH=CH2CO+H                               9.46E+13    0.0     -515.0
+  78. CH3+H(+M)=CH4(+M)                             1.27E+16   -0.6      383.0
+      Low pressure limit:  0.24770E+34 -0.47600E+01  0.24400E+04
+      TROE centering:      0.78300E+00  0.74000E+02  0.29410E+04  0.69640E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  79. CH3+O=CH2O+H                                  8.43E+13    0.0        0.0
+  80. CH3+OH=CH2+H2O                                5.60E+07    1.6     5420.0
+  81. CH3+OH=CH2*+H2O                               2.50E+13    0.0        0.0
+  82. CH3+O2=O+CH3O                                 3.08E+13    0.0    28800.0
+  83. CH3+O2=OH+CH2O                                3.60E+10    0.0     8940.0
+  84. CH3+HO2=CH4+O2                                1.00E+12    0.0        0.0
+  85. CH3+HO2=CH3O+OH                               1.34E+13    0.0        0.0
+  86. CH3+H2O2=CH4+HO2                              2.45E+04    2.5     5180.0
+  87. CH3+CH=C2H3+H                                 3.00E+13    0.0        0.0
+  88. CH3+HCO=CH4+CO                                8.48E+12    0.0        0.0
+  89. CH3+HCO(+M)=CH3CHO(+M)                        1.80E+13    0.0        0.0
+      Low pressure limit:  0.22000E+49 -0.95880E+01  0.51000E+04
+      TROE centering:      0.61730E+00  0.13076E+02  0.20780E+04  0.50930E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  90. CH3+CH2O=CH4+HCO                              3.32E+03    2.8     5860.0
+  91. CH3+CH2=C2H4+H                                4.00E+13    0.0        0.0
+  92. CH3+CH2*=C2H4+H                               1.20E+13    0.0     -570.0
+  93. CH3+CH3(+M)=C2H6(+M)                          2.12E+16   -1.0      620.0
+      Low pressure limit:  0.17700E+51 -0.96700E+01  0.62200E+04
+      TROE centering:      0.53250E+00  0.15100E+03  0.10380E+04  0.49700E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+  94. CH3+CH3=H+C2H5                                4.99E+12    0.1    10600.0
+  95. CH3+HCCO=C2H4+CO                              5.00E+13    0.0        0.0
+  96. CH3O+H=CH2O+H2                                2.00E+13    0.0        0.0
+  97. CH3O+H=CH3+OH                                 3.20E+13    0.0        0.0
+  98. CH3O+H=CH2*+H2O                               1.60E+13    0.0        0.0
+  99. CH3O+O=CH2O+OH                                1.00E+13    0.0        0.0
+ 100. CH3O+OH=CH2O+H2O                              5.00E+12    0.0        0.0
+ 101. CH3O+O2=CH2O+HO2                              4.28E-13    7.6    -3530.0
+ 102. CH4+H=CH3+H2                                  6.60E+08    1.6    10840.0
+ 103. CH4+O=CH3+OH                                  1.02E+09    1.5     8600.0
+ 104. CH4+OH=CH3+H2O                                1.00E+08    1.6     3120.0
+ 105. CH4+CH=C2H4+H                                 6.00E+13    0.0        0.0
+ 106. CH4+CH2=CH3+CH3                               2.46E+06    2.0     8270.0
+ 107. CH4+CH2*=CH3+CH3                              1.60E+13    0.0     -570.0
+ 108. HCCO+H=CH2*+CO                                1.00E+14    0.0        0.0
+ 109. HCCO+O=H+CO+CO                                1.00E+14    0.0        0.0
+ 110. HCCO+O2=OH+2CO                                1.60E+12    0.0      854.0
+ 111. HCCO+CH=C2H2+CO                               5.00E+13    0.0        0.0
+ 112. HCCO+CH2=C2H3+CO                              3.00E+13    0.0        0.0
+ 113. HCCO+HCCO=C2H2+CO+CO                          1.00E+13    0.0        0.0
+ 114. C2H2(+M)=H2CC(+M)                             8.00E+14   -0.5    50750.0
+      Low pressure limit:  0.24500E+16 -0.64000E+00  0.49700E+05
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    2.500E+00
+         C2H4             Enhanced by    2.500E+00
+ 115. C2H3(+M)=C2H2+H(+M)                           3.86E+08    1.6    37048.2
+      Low pressure limit:  0.25650E+28 -0.34000E+01  0.35799E+05
+      TROE centering:      0.19816E+01  0.53837E+04  0.42932E+01 -0.79500E-01
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 116. C2H2+O=HCCO+H                                 1.63E+07    2.0     1900.0
+ 117. C2H2+O=CH2+CO                                 4.08E+06    2.0     1900.0
+ 118. C2H2+OH=CH2CO+H                               2.18E-04    4.5    -1000.0
+ 119. C2H2+OH=CH3+CO                                4.83E-04    4.0    -2000.0
+ 120. C2H2+HCO=C2H3+CO                              1.00E+07    2.0     6000.0
+ 121. C2H2+CH3+M=aC3H5+M                            2.20E+55  -11.8    35730.0
+ 122. H2CC+H=C2H2+H                                 1.00E+14    0.0        0.0
+ 123. H2CC+O=CH2+CO                                 1.00E+14    0.0        0.0
+ 124. H2CC+OH=CH2CO+H                               2.00E+13    0.0        0.0
+ 125. H2CC+O2=CO2+CH2                               1.00E+13    0.0        0.0
+ 126. CH2CO+H(+M)=CH2CHO(+M)                        3.30E+14   -0.1     8500.0
+      Low pressure limit:  0.38000E+42 -0.76400E+01  0.11900E+05
+      TROE centering:      0.33700E+00  0.17070E+04  0.32000E+04  0.41310E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 127. CH2CO+H=HCCO+H2                               5.00E+13    0.0     8000.0
+ 128. CH2CO+H=CH3+CO                                1.50E+09    1.4     2690.0
+ 129. CH2CO+O=HCCO+OH                               1.00E+13    0.0     8000.0
+ 130. CH2CO+O=CH2+CO2                               1.75E+12    0.0     1350.0
+ 131. CH2CO+OH=HCCO+H2O                             7.50E+12    0.0     2000.0
+ 132. C2H3+H(+M)=C2H4(+M)                           6.08E+12    0.3      280.0
+      Low pressure limit:  0.14000E+31 -0.38600E+01  0.33200E+04
+      TROE centering:      0.78200E+00  0.20750E+03  0.26630E+04  0.60950E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 133. C2H3+H=C2H2+H2                                3.00E+13    0.0        0.0
+ 134. C2H3+H=H2CC+H2                                6.00E+13    0.0        0.0
+ 135. C2H3+O=CH2CO+H                                4.80E+13    0.0        0.0
+ 136. C2H3+O=CH3+CO                                 4.80E+13    0.0        0.0
+ 137. C2H3+OH=C2H2+H2O                              3.01E+13    0.0        0.0
+ 138. C2H3+O2=C2H2+HO2                              1.34E+06    1.6     -383.4
+ 139. C2H3+O2=CH2CHO+O                              3.00E+11    0.3       11.0
+ 140. C2H3+O2=HCO+CH2O                              4.60E+16   -1.4     1010.0
+ 141. C2H3+HO2=CH2CHO+OH                            1.00E+13    0.0        0.0
+ 142. C2H3+H2O2=C2H4+HO2                            1.21E+10    0.0     -596.0
+ 143. C2H3+HCO=C2H4+CO                              9.03E+13    0.0        0.0
+ 144. C2H3+CH3=C2H2+CH4                             3.92E+11    0.0        0.0
+ 145. C2H3+CH3(+M)=C3H6(+M)                         2.50E+13    0.0        0.0
+      Low pressure limit:  0.42700E+59 -0.11940E+02  0.97698E+04
+      TROE centering:      0.17500E+00  0.13406E+04  0.60000E+05  0.10140E+05
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 146. C2H3+CH3=aC3H5+H                              1.50E+24   -2.8    18618.0
+ 147. CH2CHO=CH3+CO                                 7.80E+41   -9.1    46900.0
+ 148. CH2CHO+H(+M)=CH3CHO(+M)                       1.00E+14    0.0        0.0
+      Low pressure limit:  0.52000E+40 -0.72970E+01  0.47000E+04
+      TROE centering:      0.55000E+00  0.89000E+04  0.43500E+04  0.72440E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 149. CH2CHO+H=CH3+HCO                              9.00E+13    0.0        0.0
+ 150. CH2CHO+H=CH2CO+H2                             2.00E+13    0.0     4000.0
+ 151. CH2CHO+O=CH2CO+OH                             2.00E+13    0.0     4000.0
+ 152. CH2CHO+OH=CH2CO+H2O                           1.00E+13    0.0     2000.0
+ 153. CH2CHO+O2=CH2CO+HO2                           1.40E+11    0.0        0.0
+ 154. CH2CHO+O2=CH2O+CO+OH                          1.80E+10    0.0        0.0
+ 155. C2H4(+M)=H2+H2CC(+M)                          8.00E+12    0.4    88770.0
+      Low pressure limit:  0.70000E+51 -0.93100E+01  0.99860E+05
+      TROE centering:      0.73450E+00  0.18000E+03  0.10350E+04  0.54170E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 156. C2H4+H(+M)=C2H5(+M)                           1.08E+12    0.5     1820.0
+      Low pressure limit:  0.12000E+43 -0.76200E+01  0.69700E+04
+      TROE centering:      0.97530E+00  0.21000E+03  0.98400E+03  0.43740E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 157. C2H4+H=C2H3+H2                                5.07E+07    1.9    12950.0
+ 158. C2H4+O=OH+C2H3                                1.51E+07    1.9     3740.0
+ 159. C2H4+O=CH3+HCO                                1.92E+07    1.8      220.0
+ 160. C2H4+O=CH2+CH2O                               3.84E+05    1.8      220.0
+ 161. C2H4+OH=C2H3+H2O                              3.60E+06    2.0     2500.0
+ 162. C2H4+O2=C2H3+HO2                              4.22E+13    0.0    60800.0
+ 163. C2H4+HO2=CH3CHO+OH                            2.00E+12    0.0    14000.0
+ 164. C2H4+HCO=C2H5+CO                              1.00E+07    2.0     8000.0
+ 165. C2H4+CH2=aC3H5+H                              2.00E+13    0.0     6000.0
+ 166. C2H4+CH2*=H2CC+CH4                            5.00E+13    0.0        0.0
+ 167. C2H4+CH2*=aC3H5+H                             5.00E+13    0.0        0.0
+ 168. C2H4+CH3=C2H3+CH4                             2.27E+05    2.0     9200.0
+ 169. C2H4+CH3=nC3H7                                3.30E+11    0.0     7700.0
+ 170. C2H5+H(+M)=C2H6(+M)                           5.21E+17   -1.0     1580.0
+      Low pressure limit:  0.19900E+42 -0.70800E+01  0.66850E+04
+      TROE centering:      0.84220E+00  0.12500E+03  0.22190E+04  0.68820E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 171. C2H5+H=C2H4+H2                                2.00E+12    0.0        0.0
+ 172. C2H5+O=CH3+CH2O                               1.60E+13    0.0        0.0
+ 173. C2H5+O=CH3CHO+H                               8.02E+13    0.0        0.0
+ 174. C2H5+O2=C2H4+HO2                              2.00E+10    0.0        0.0
+ 175. C2H5+HO2=C2H6+O2                              3.00E+11    0.0        0.0
+ 176. C2H5+HO2=C2H4+H2O2                            3.00E+11    0.0        0.0
+ 177. C2H5+HO2=CH3+CH2O+OH                          2.40E+13    0.0        0.0
+ 178. C2H5+H2O2=C2H6+HO2                            8.70E+09    0.0      974.0
+ 179. C2H5+HCO=C2H6+CO                              1.20E+14    0.0        0.0
+ 180. C2H6+H=C2H5+H2                                1.15E+08    1.9     7530.0
+ 181. C2H6+O=C2H5+OH                                8.98E+07    1.9     5690.0
+ 182. C2H6+OH=C2H5+H2O                              3.54E+06    2.1      870.0
+ 183. C2H6+CH2*=C2H5+CH3                            4.00E+13    0.0     -550.0
+ 184. C2H6+CH3=C2H5+CH4                             6.14E+06    1.7    10450.0
+ 185. aC3H5+H(+M)=C3H6(+M)                          2.00E+14    0.0        0.0
+      Low pressure limit:  0.13300E+61 -0.12000E+02  0.59678E+04
+      TROE centering:      0.20000E-01  0.10966E+04  0.10966E+04  0.68595E+04
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+         C2H2             Enhanced by    3.000E+00
+         C2H4             Enhanced by    3.000E+00
+ 186. aC3H5+H=H2CC+CH4                              2.00E+13    0.0     2000.0
+ 187. aC3H5+HO2=C3H6+O2                             2.66E+12    0.0        0.0
+ 188. aC3H5+HO2=OH+C2H3+CH2O                        6.60E+12    0.0        0.0
+ 189. aC3H5+HCO=C3H6+CO                             6.00E+13    0.0        0.0
+ 190. C3H6+H(+M)=nC3H7(+M)                          1.33E+13    0.0     3260.7
+      Low pressure limit:  0.62600E+39 -0.66600E+01  0.70000E+04
+      TROE centering:      0.10000E+01  0.10000E+04  0.13100E+04  0.48097E+05
+         H2               Enhanced by    2.000E+00
+         H2O              Enhanced by    6.000E+00
+         CH4              Enhanced by    2.000E+00
+         CO               Enhanced by    1.500E+00
+         CO2              Enhanced by    2.000E+00
+         C2H6             Enhanced by    3.000E+00
+ 191. C3H6+H=C2H4+CH3                               1.60E+22   -2.4    11180.0
+ 192. C3H6+H=aC3H5+H2                               1.70E+05    2.5     2490.0
+ 193. C3H6+O=CH2CO+CH3+H                            1.20E+08    1.6      327.0
+ 194. C3H6+O=C2H5+HCO                               3.50E+07    1.6     -972.0
+ 195. C3H6+O=aC3H5+OH                               1.80E+11    0.7     5880.0
+ 196. C3H6+OH=aC3H5+H2O                             3.10E+06    2.0     -298.0
+ 197. C3H6+HO2=aC3H5+H2O2                           9.60E+03    2.6    13910.0
+ 198. C3H6+CH3=aC3H5+CH4                            2.20E+00    3.5     5675.0
+ 199. nC3H7+H=C2H5+CH3                              3.70E+24   -2.9    12505.0
+ 200. nC3H7+H=C3H6+H2                               1.80E+12    0.0        0.0
+ 201. nC3H7+O=C2H5+CH2O                             9.60E+13    0.0        0.0
+ 202. nC3H7+OH=C3H6+H2O                             2.40E+13    0.0        0.0
+ 203. nC3H7+O2=C3H6+HO2                             9.00E+10    0.0        0.0
+ 204. nC3H7+HO2=C2H5+OH+CH2O                        2.40E+13    0.0        0.0
+ 205. nC3H7+CH3=CH4+C3H6                            1.10E+13    0.0        0.0
+ 206. C2H3+C2H5=aC3H5+CH3                           3.90E+32   -5.2    19747.0
+
+  NOTE:  A units mole-cm-sec-K, E units cal/mole
+
+
+
+ NO ERRORS FOUND ON INPUT...CHEMKIN LINKING FILE WRITTEN.
+
+ WORKING SPACE REQUIREMENTS ARE
+    INTEGER:     4666
+    REAL:        3520
+    CHARACTER:     37

@@ -1,0 +1,17 @@
+copyright (c) Zhen Lu <albert.lz07@gmail.com>
+March 13 2017
+A program to do chemical explosive mode analysis of the KIVA data
+
+To build the program:
+
+cd src/
+
+make
+
+Some minor changes may be required in vars.mk file, depends on system configuration. 
+
+To use the program:
+
+Put it in a folder with the KIVA output file, say species06. Give the filename in cema.nml. chem.bin is also required.
+
+All the information is returned in subroutine KIVA_eigen. For the present version, only the largest non-conservative eigen-value is saved. User can add other post-processes. Data are stored in module KIVA_dat, write to file in subroutine KIVA_write.
